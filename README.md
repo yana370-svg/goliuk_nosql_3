@@ -19,6 +19,7 @@
    │ [:RATED {rating, timestamp}]
    ▼
 (Movie {movieId, title}) ──[:HAS_GENRE]──> (Genre {name})
+```
 
 ![Схема графа](assets/screenshots/schema.visualization.png)
 
